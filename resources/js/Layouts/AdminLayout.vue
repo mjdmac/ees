@@ -2,7 +2,7 @@
   <Head :title="title" />
   <div>
     <!-- Main Sidebar Container -->
-    <SideBar />
+    <AdminSideBar />
     <div class="relative md:ml-64 bg-blueGray-100">
       <header class="bg-white" v-if="$slots.header">
         <div class="max-w-full mx-auto py-8 px-14 sm:px-14 lg:px-14">
@@ -28,13 +28,13 @@
   </div>
 </template>
 <script>
-import SideBar from "@/Components/SideBar/AdminSidebar.vue";
+import AdminSideBar from "@/Components/SideBar/AdminSidebar.vue";
 export default {
   props: {
     title: String,
   },
   components: {
-    SideBar,
+    AdminSideBar,
   },
 };
 </script>

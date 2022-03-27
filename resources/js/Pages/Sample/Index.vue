@@ -29,7 +29,7 @@
 
 <script>
 import { defineComponent } from "vue";
-import AdminLayout from "@/Layouts/Adminlayout";
+import AdminLayout from "@/Layouts/AdminLayout";
 
 export default defineComponent({
   components: {

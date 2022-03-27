@@ -9,7 +9,7 @@
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                     <welcome />
                 </div>
-      
+
     </admin-layout>
 </template>
 
